@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:8 (add_include_directories):
+  Unknown CMake command "add_include_directories".
+
+[0m
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

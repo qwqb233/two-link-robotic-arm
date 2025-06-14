@@ -1,0 +1,48 @@
+[0.010s] Invoking command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16
+[0.041s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.247s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.406s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.415s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.425s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.436s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.490s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.490s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.723s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.905s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.919s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.984s] WARNING: Package name "controlVrep_ws" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.027s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.027s] -- Configured cppcheck include dirs: 
+[1.027s] -- Configured cppcheck exclude dirs and/or files: 
+[1.029s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.029s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.034s] -- Added test 'lint_cmake' to check CMake code style
+[1.037s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.054s] -- Added test 'uncrustify' to check C / C++ code style
+[1.054s] -- Configured uncrustify additional arguments: 
+[1.057s] -- Added test 'xmllint' to check XML markup files
+[1.058s] -- Configuring done (1.0s)
+[1.072s] -- Generating done (0.0s)
+[1.076s] -- Build files have been written to: /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws
+[1.141s] [ 50%] [32mBuilding CXX object CMakeFiles/controlVrep_ws_node.dir/src/controlVrep_ws_node.cpp.o[0m
+[8.533s] [100%] [32m[1mLinking CXX executable controlVrep_ws_node[0m
+[8.948s] [100%] Built target controlVrep_ws_node
+[8.965s] Invoked command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16
+[8.979s] Invoking command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws
+[8.990s] -- Install configuration: ""
+[8.990s] -- Installing: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/ament_index/resource_index/package_run_dependencies/controlVrep_ws
+[8.991s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/ament_index/resource_index/parent_prefix_path/controlVrep_ws
+[8.991s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/ament_prefix_path.sh
+[8.991s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/ament_prefix_path.dsv
+[8.991s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/path.sh
+[8.991s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/path.dsv
+[8.992s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.bash
+[8.992s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.sh
+[8.992s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.zsh
+[8.992s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.dsv
+[8.992s] -- Installing: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.dsv
+[8.992s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/ament_index/resource_index/packages/controlVrep_ws
+[8.992s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/cmake/controlVrep_wsConfig.cmake
+[8.992s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/cmake/controlVrep_wsConfig-version.cmake
+[8.992s] -- Installing: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.xml
+[8.995s] Invoked command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws

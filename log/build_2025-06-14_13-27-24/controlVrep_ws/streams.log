@@ -1,0 +1,26 @@
+[0.028s] Invoking command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16
+[0.173s] [ 50%] Built target Matrix
+[0.237s] [ 75%] [32mBuilding CXX object CMakeFiles/controlVrep_ws_node.dir/src/controlVrep_ws_node.cpp.o[0m
+[11.763s] [100%] [32m[1mLinking CXX executable controlVrep_ws_node[0m
+[12.496s] [100%] Built target controlVrep_ws_node
+[12.518s] Invoked command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16
+[12.537s] Invoking command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws
+[12.551s] -- Install configuration: ""
+[12.553s] -- Installing: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/controlVrep_ws/controlVrep_ws_node
+[12.565s] -- Set non-toolchain portion of runtime path of "/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/controlVrep_ws/controlVrep_ws_node" to ""
+[12.565s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/ament_index/resource_index/package_run_dependencies/controlVrep_ws
+[12.565s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/ament_index/resource_index/parent_prefix_path/controlVrep_ws
+[12.566s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/ament_prefix_path.sh
+[12.566s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/ament_prefix_path.dsv
+[12.566s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/path.sh
+[12.566s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/path.dsv
+[12.566s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.bash
+[12.566s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.sh
+[12.566s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.zsh
+[12.566s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.dsv
+[12.566s] -- Installing: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.dsv
+[12.566s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/ament_index/resource_index/packages/controlVrep_ws
+[12.567s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/cmake/controlVrep_wsConfig.cmake
+[12.567s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/cmake/controlVrep_wsConfig-version.cmake
+[12.567s] -- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.xml
+[12.573s] Invoked command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws

@@ -1,0 +1,4 @@
+source;share/controlVrep_ws/local_setup.bash
+source;share/controlVrep_ws/local_setup.dsv
+source;share/controlVrep_ws/local_setup.sh
+source;share/controlVrep_ws/local_setup.zsh

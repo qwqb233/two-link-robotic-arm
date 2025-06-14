@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16
+[0.048s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.327s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.520s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.528s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.539s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.551s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.607s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.609s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.895s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.108s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.465s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[2.465s]   By not providing "FindMatrix.cmake" in CMAKE_MODULE_PATH this project has
+[2.466s]   asked CMake to find a package configuration file provided by "Matrix", but
+[2.466s]   CMake did not find one.
+[2.466s] 
+[2.466s]   Could not find a package configuration file provided by "Matrix" with any
+[2.466s]   of the following names:
+[2.466s] 
+[2.466s]     MatrixConfig.cmake
+[2.466s]     matrix-config.cmake
+[2.466s] 
+[2.466s]   Add the installation prefix of "Matrix" to CMAKE_PREFIX_PATH or set
+[2.466s]   "Matrix_DIR" to a directory containing one of the above files.  If "Matrix"
+[2.466s]   provides a separate development package or SDK, be sure it has been
+[2.466s]   installed.
+[2.466s] 
+[2.466s] [0m
+[2.466s] -- Configuring incomplete, errors occurred!
+[2.479s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[2.483s] Invoked command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16

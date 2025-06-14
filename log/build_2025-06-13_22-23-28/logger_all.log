@@ -1,0 +1,106 @@
+[0.253s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.253s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7afaea3494f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7afaea4a6090>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7afaea4a6090>>)
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.303s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/qwqb233/ros2Project/controlVrep_ws'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'controlVrep_ws'
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.365s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/qwqb233/ros2Project/controlVrep_ws/install
+[0.367s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/jazzy
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'controlVrep_ws' build argument 'cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'controlVrep_ws' build argument 'cmake_target' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'controlVrep_ws' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'controlVrep_ws' build argument 'cmake_clean_cache' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'controlVrep_ws' build argument 'cmake_clean_first' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'controlVrep_ws' build argument 'cmake_force_configure' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'controlVrep_ws' build argument 'ament_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'controlVrep_ws' build argument 'catkin_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'controlVrep_ws' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.421s] DEBUG:colcon.colcon_core.verb:Building package 'controlVrep_ws' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws', 'merge_install': False, 'path': '/home/qwqb233/ros2Project/controlVrep_ws', 'symlink_install': False, 'test_result_base': None}
+[0.421s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.422s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.423s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qwqb233/ros2Project/controlVrep_ws' with build type 'ament_cmake'
+[0.423s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qwqb233/ros2Project/controlVrep_ws'
+[0.425s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws
+[0.598s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controlVrep_ws)
+[0.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws' for CMake module files
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws' for CMake config files
+[0.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlVrep_ws', 'cmake_prefix_path')
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/hook/cmake_prefix_path.ps1'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/hook/cmake_prefix_path.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/hook/cmake_prefix_path.sh'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/bin'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/pkgconfig/controlVrep_ws.pc'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/python3.12/site-packages'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/bin'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.ps1'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.sh'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.bash'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.zsh'
+[0.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/colcon-core/packages/controlVrep_ws)
+[0.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controlVrep_ws)
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws' for CMake module files
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws' for CMake config files
+[0.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlVrep_ws', 'cmake_prefix_path')
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/hook/cmake_prefix_path.ps1'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/hook/cmake_prefix_path.dsv'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/hook/cmake_prefix_path.sh'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/bin'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/pkgconfig/controlVrep_ws.pc'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/python3.12/site-packages'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/bin'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.ps1'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.dsv'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.sh'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.bash'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.zsh'
+[0.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/colcon-core/packages/controlVrep_ws)
+[0.615s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.615s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.615s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.615s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.686s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.687s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.687s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.687s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.688s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[0.688s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.689s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qwqb233/ros2Project/controlVrep_ws/install/local_setup.ps1'
+[0.690s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qwqb233/ros2Project/controlVrep_ws/install/_local_setup_util_ps1.py'
+[0.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qwqb233/ros2Project/controlVrep_ws/install/setup.ps1'
+[0.692s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qwqb233/ros2Project/controlVrep_ws/install/local_setup.sh'
+[0.692s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qwqb233/ros2Project/controlVrep_ws/install/_local_setup_util_sh.py'
+[0.693s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qwqb233/ros2Project/controlVrep_ws/install/setup.sh'
+[0.694s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qwqb233/ros2Project/controlVrep_ws/install/local_setup.bash'
+[0.694s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qwqb233/ros2Project/controlVrep_ws/install/setup.bash'
+[0.695s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qwqb233/ros2Project/controlVrep_ws/install/local_setup.zsh'
+[0.696s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qwqb233/ros2Project/controlVrep_ws/install/setup.zsh'

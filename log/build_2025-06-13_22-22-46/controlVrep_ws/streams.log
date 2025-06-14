@@ -1,0 +1,8 @@
+[0.014s] Invoking command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16
+[0.056s] [31mCMake Error at CMakeLists.txt:8 (add_include_directories):
+[0.056s]   Unknown CMake command "add_include_directories".
+[0.056s] 
+[0.056s] [0m
+[0.056s] -- Configuring incomplete, errors occurred!
+[0.059s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.062s] Invoked command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16

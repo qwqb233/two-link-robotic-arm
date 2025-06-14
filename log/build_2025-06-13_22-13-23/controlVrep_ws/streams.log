@@ -1,0 +1,31 @@
+[0.015s] Invoking command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16
+[0.057s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.342s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.558s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.568s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.581s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.663s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.664s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.977s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.204s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.638s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[2.639s]   By not providing "Findnlohmann_json.cmake" in CMAKE_MODULE_PATH this
+[2.639s]   project has asked CMake to find a package configuration file provided by
+[2.639s]   "nlohmann_json", but CMake did not find one.
+[2.639s] 
+[2.639s]   Could not find a package configuration file provided by "nlohmann_json"
+[2.639s]   with any of the following names:
+[2.639s] 
+[2.639s]     nlohmann_jsonConfig.cmake
+[2.639s]     nlohmann_json-config.cmake
+[2.639s] 
+[2.639s]   Add the installation prefix of "nlohmann_json" to CMAKE_PREFIX_PATH or set
+[2.639s]   "nlohmann_json_DIR" to a directory containing one of the above files.  If
+[2.639s]   "nlohmann_json" provides a separate development package or SDK, be sure it
+[2.640s]   has been installed.
+[2.640s] 
+[2.640s] [0m
+[2.640s] -- Configuring incomplete, errors occurred!
+[2.657s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[2.660s] Invoked command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16

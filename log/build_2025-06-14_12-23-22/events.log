@@ -1,0 +1,210 @@
+[0.000000] (-) TimerEvent: {}
+[0.000210] (controlVrep_ws) JobQueued: {'identifier': 'controlVrep_ws', 'dependencies': OrderedDict()}
+[0.000551] (controlVrep_ws) JobStarted: {'identifier': 'controlVrep_ws'}
+[0.011033] (controlVrep_ws) JobProgress: {'identifier': 'controlVrep_ws', 'progress': 'cmake'}
+[0.011976] (controlVrep_ws) JobProgress: {'identifier': 'controlVrep_ws', 'progress': 'build'}
+[0.012510] (controlVrep_ws) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws', '--', '-j16', '-l16'], 'cwd': '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'qwqb233', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_ASKPASS': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/qwqb233', 'TERM_PROGRAM_VERSION': '1.101.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-8a008eba-67c2-4895-85d6-a8509bb33b6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'qwqb233', 'NAME': 'qwqb233', 'WSL_INTEROP': '/run/WSL/659_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/bin/remote-cli:/home/qwqb233/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA/CUDNN/v9.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/d/winAVR/bin:/mnt/d/winAVR/utils/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/:/mnt/c/Program Files/USBip:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Trae CN/bin:/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin:/mnt/c/MinGW/bin:/mnt/c/Users/qwqb233/AppData/Local/Programs/Python/Python310:/mnt/c/Users/qwqb233/AppData/Local/Programs/Python/Python310/Scripts:/mnt/d/CMAKE/bin:/mnt/c/Windows/System32:/mnt/c/Users/qwqb233/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Users/qwqb233/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/clion/CLion 2023.2/bin/mingw/bin:/mnt/d/clion/CLion 2023.2/bin/gdb/win/x64/bin:/mnt/d/clion/CLion 2023.2/bin/cmake/win/x64/bin:/mnt/d/clion/CLion 2023.2/bin:/mnt/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin:/mnt/d/GUNGCC/10 2021.10/bin:/mnt/d/openocd/OpenOCD-20240916-0.12.0/bin:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Users/qwqb233/AppData/Local/Programs/nu/bin/:/mnt/d/ffmpeg/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/nodejs/node_modules/npm/bin:/mnt/c/Users/qwqb233/AppData/Roaming/npm:/mnt/c/Users/qwqb233/AppData/Local/Programs/Ollama:/mnt/d/mysql/bin:/mnt/c/Program Files/Git/bin:/mnt/d/Windsurf/bin:/mnt/c/Program Files/Java/jdk-18.0.2.1/bin:/mnt/d/apache-ant-1.10.14/bin:/mnt/d/编程/stm32/工具软件/串口助手:/mnt/d/keil/mdk/UV4:/snap/bin:/home/qwqb233/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-11438bda8c.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'WEBOTS_HOME': '/usr/local/webots', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.051623] (controlVrep_ws) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099765] (-) TimerEvent: {}
+[0.200122] (-) TimerEvent: {}
+[0.267257] (controlVrep_ws) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.300200] (-) TimerEvent: {}
+[0.400446] (-) TimerEvent: {}
+[0.430080] (controlVrep_ws) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.441078] (controlVrep_ws) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.456847] (controlVrep_ws) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.473220] (controlVrep_ws) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500506] (-) TimerEvent: {}
+[0.544357] (controlVrep_ws) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.546701] (controlVrep_ws) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600570] (-) TimerEvent: {}
+[0.700807] (-) TimerEvent: {}
+[0.767101] (controlVrep_ws) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800914] (-) TimerEvent: {}
+[0.901184] (-) TimerEvent: {}
+[0.940585] (controlVrep_ws) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.957953] (controlVrep_ws) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.001283] (-) TimerEvent: {}
+[1.017095] (controlVrep_ws) StderrLine: {'line': b'WARNING: Package name "controlVrep_ws" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[1.075897] (controlVrep_ws) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.076145] (controlVrep_ws) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/qwqb233/ros2Project/controlVrep_ws/include\n'}
+[1.076227] (controlVrep_ws) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.079268] (controlVrep_ws) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.079414] (controlVrep_ws) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.084406] (controlVrep_ws) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.087192] (controlVrep_ws) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.101358] (-) TimerEvent: {}
+[1.106920] (controlVrep_ws) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.107119] (controlVrep_ws) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.109849] (controlVrep_ws) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.111934] (controlVrep_ws) StdoutLine: {'line': b'-- Configuring done (1.1s)\n'}
+[1.134545] (controlVrep_ws) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.138615] (controlVrep_ws) StdoutLine: {'line': b'-- Build files have been written to: /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws\n'}
+[1.180319] (controlVrep_ws) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/Matrix.dir/src/Matrix.cpp.o\x1b[0m\n'}
+[1.195263] (controlVrep_ws) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controlVrep_ws_node.dir/src/controlVrep_ws_node.cpp.o\x1b[0m\n'}
+[1.201436] (-) TimerEvent: {}
+[1.301668] (-) TimerEvent: {}
+[1.401989] (-) TimerEvent: {}
+[1.502249] (-) TimerEvent: {}
+[1.557760] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KMatrix Matrix::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.558048] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:137:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[KMatrix::\x1b[01;32m\x1b[KMatrix\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.558129] (controlVrep_ws) StderrLine: {'line': b'  137 |     return \x1b[01;35m\x1b[Kresult\x1b[m\x1b[K;\n'}
+[1.558184] (controlVrep_ws) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.558231] (controlVrep_ws) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:8\x1b[m\x1b[K:\n'}
+[1.558289] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatrix\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KMatrix& Matrix::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.558336] (controlVrep_ws) StderrLine: {'line': b'   46 |         Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Matrix& other);\n'}
+[1.558378] (controlVrep_ws) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.558520] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KMatrix Matrix::\x1b[01;32m\x1b[Koperator-\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.558602] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:152:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[KMatrix::\x1b[01;32m\x1b[KMatrix\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.558666] (controlVrep_ws) StderrLine: {'line': b'  152 |     return \x1b[01;35m\x1b[Kresult\x1b[m\x1b[K;\n'}
+[1.558714] (controlVrep_ws) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.558758] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatrix\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KMatrix& Matrix::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.558804] (controlVrep_ws) StderrLine: {'line': b'   46 |         Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Matrix& other);\n'}
+[1.558848] (controlVrep_ws) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.559031] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KMatrix Matrix::\x1b[01;32m\x1b[Koperator*\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.559113] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:174:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[KMatrix::\x1b[01;32m\x1b[KMatrix\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.559221] (controlVrep_ws) StderrLine: {'line': b'  174 |     return \x1b[01;35m\x1b[Kresult\x1b[m\x1b[K;\n'}
+[1.559332] (controlVrep_ws) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.559451] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatrix\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KMatrix& Matrix::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.559548] (controlVrep_ws) StderrLine: {'line': b'   46 |         Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Matrix& other);\n'}
+[1.559657] (controlVrep_ws) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.559837] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KMatrix Matrix::\x1b[01;32m\x1b[Koperator+\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.560106] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:185:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[KMatrix::\x1b[01;32m\x1b[KMatrix\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.560169] (controlVrep_ws) StderrLine: {'line': b'  185 |     return \x1b[01;35m\x1b[Kresult\x1b[m\x1b[K;\n'}
+[1.560218] (controlVrep_ws) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.560264] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatrix\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KMatrix& Matrix::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.560310] (controlVrep_ws) StderrLine: {'line': b'   46 |         Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Matrix& other);\n'}
+[1.560352] (controlVrep_ws) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.560394] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KMatrix Matrix::\x1b[01;32m\x1b[Koperator-\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.560447] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:195:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[KMatrix::\x1b[01;32m\x1b[KMatrix\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.560494] (controlVrep_ws) StderrLine: {'line': b'  195 |     return \x1b[01;35m\x1b[Kresult\x1b[m\x1b[K;\n'}
+[1.560537] (controlVrep_ws) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.560580] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatrix\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KMatrix& Matrix::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.560624] (controlVrep_ws) StderrLine: {'line': b'   46 |         Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Matrix& other);\n'}
+[1.560666] (controlVrep_ws) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.560707] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KMatrix Matrix::\x1b[01;32m\x1b[Koperator*\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.560748] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:205:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[KMatrix::\x1b[01;32m\x1b[KMatrix\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.560796] (controlVrep_ws) StderrLine: {'line': b'  205 |     return \x1b[01;35m\x1b[Kresult\x1b[m\x1b[K;\n'}
+[1.560839] (controlVrep_ws) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.560881] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatrix\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KMatrix& Matrix::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.560929] (controlVrep_ws) StderrLine: {'line': b'   46 |         Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Matrix& other);\n'}
+[1.560971] (controlVrep_ws) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.561012] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KMatrix Matrix::\x1b[01;32m\x1b[Koperator/\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.561052] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:219:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[KMatrix::\x1b[01;32m\x1b[KMatrix\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.561100] (controlVrep_ws) StderrLine: {'line': b'  219 |     return \x1b[01;35m\x1b[Kresult\x1b[m\x1b[K;\n'}
+[1.561153] (controlVrep_ws) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.561198] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatrix\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KMatrix& Matrix::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.561240] (controlVrep_ws) StderrLine: {'line': b'   46 |         Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Matrix& other);\n'}
+[1.561281] (controlVrep_ws) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.561321] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KMatrix Matrix::\x1b[01;32m\x1b[Koperator^\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.561362] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:233:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[KMatrix::\x1b[01;32m\x1b[KMatrix\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.561405] (controlVrep_ws) StderrLine: {'line': b'  233 |     return \x1b[01;35m\x1b[Kresult\x1b[m\x1b[K;\n'}
+[1.561547] (controlVrep_ws) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.561596] (controlVrep_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatrix\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[KMatrix& Matrix::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const Matrix&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.561642] (controlVrep_ws) StderrLine: {'line': b'   46 |         Matrix& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Matrix& other);\n'}
+[1.561684] (controlVrep_ws) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.602331] (-) TimerEvent: {}
+[1.702649] (-) TimerEvent: {}
+[1.727902] (controlVrep_ws) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libMatrix.so\x1b[0m\n'}
+[1.802747] (-) TimerEvent: {}
+[1.903018] (-) TimerEvent: {}
+[1.906740] (controlVrep_ws) StdoutLine: {'line': b'[ 75%] Built target Matrix\n'}
+[2.003120] (-) TimerEvent: {}
+[2.103419] (-) TimerEvent: {}
+[2.203708] (-) TimerEvent: {}
+[2.303989] (-) TimerEvent: {}
+[2.404313] (-) TimerEvent: {}
+[2.504604] (-) TimerEvent: {}
+[2.604912] (-) TimerEvent: {}
+[2.705229] (-) TimerEvent: {}
+[2.805493] (-) TimerEvent: {}
+[2.905801] (-) TimerEvent: {}
+[3.006095] (-) TimerEvent: {}
+[3.106531] (-) TimerEvent: {}
+[3.206908] (-) TimerEvent: {}
+[3.307355] (-) TimerEvent: {}
+[3.407784] (-) TimerEvent: {}
+[3.508211] (-) TimerEvent: {}
+[3.608606] (-) TimerEvent: {}
+[3.709039] (-) TimerEvent: {}
+[3.809418] (-) TimerEvent: {}
+[3.909706] (-) TimerEvent: {}
+[4.009999] (-) TimerEvent: {}
+[4.110282] (-) TimerEvent: {}
+[4.210580] (-) TimerEvent: {}
+[4.310852] (-) TimerEvent: {}
+[4.411120] (-) TimerEvent: {}
+[4.511460] (-) TimerEvent: {}
+[4.611774] (-) TimerEvent: {}
+[4.712091] (-) TimerEvent: {}
+[4.812372] (-) TimerEvent: {}
+[4.912651] (-) TimerEvent: {}
+[5.012919] (-) TimerEvent: {}
+[5.113200] (-) TimerEvent: {}
+[5.213490] (-) TimerEvent: {}
+[5.313771] (-) TimerEvent: {}
+[5.414100] (-) TimerEvent: {}
+[5.514391] (-) TimerEvent: {}
+[5.614633] (-) TimerEvent: {}
+[5.714952] (-) TimerEvent: {}
+[5.815282] (-) TimerEvent: {}
+[5.915556] (-) TimerEvent: {}
+[6.015861] (-) TimerEvent: {}
+[6.116204] (-) TimerEvent: {}
+[6.216521] (-) TimerEvent: {}
+[6.316816] (-) TimerEvent: {}
+[6.417139] (-) TimerEvent: {}
+[6.517463] (-) TimerEvent: {}
+[6.617758] (-) TimerEvent: {}
+[6.717999] (-) TimerEvent: {}
+[6.818286] (-) TimerEvent: {}
+[6.918567] (-) TimerEvent: {}
+[7.018866] (-) TimerEvent: {}
+[7.119147] (-) TimerEvent: {}
+[7.219466] (-) TimerEvent: {}
+[7.319712] (-) TimerEvent: {}
+[7.420001] (-) TimerEvent: {}
+[7.520294] (-) TimerEvent: {}
+[7.620529] (-) TimerEvent: {}
+[7.720799] (-) TimerEvent: {}
+[7.821067] (-) TimerEvent: {}
+[7.921372] (-) TimerEvent: {}
+[8.021671] (-) TimerEvent: {}
+[8.121951] (-) TimerEvent: {}
+[8.222227] (-) TimerEvent: {}
+[8.322503] (-) TimerEvent: {}
+[8.422808] (-) TimerEvent: {}
+[8.523103] (-) TimerEvent: {}
+[8.623407] (-) TimerEvent: {}
+[8.723687] (-) TimerEvent: {}
+[8.822285] (controlVrep_ws) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controlVrep_ws_node\x1b[0m\n'}
+[8.823759] (-) TimerEvent: {}
+[8.924005] (-) TimerEvent: {}
+[9.024349] (-) TimerEvent: {}
+[9.124652] (-) TimerEvent: {}
+[9.224979] (-) TimerEvent: {}
+[9.233161] (controlVrep_ws) StdoutLine: {'line': b'[100%] Built target controlVrep_ws_node\n'}
+[9.248348] (controlVrep_ws) CommandEnded: {'returncode': 0}
+[9.249283] (controlVrep_ws) JobProgress: {'identifier': 'controlVrep_ws', 'progress': 'install'}
+[9.259739] (controlVrep_ws) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws'], 'cwd': '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'qwqb233', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_ASKPASS': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/qwqb233', 'TERM_PROGRAM_VERSION': '1.101.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-8a008eba-67c2-4895-85d6-a8509bb33b6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'qwqb233', 'NAME': 'qwqb233', 'WSL_INTEROP': '/run/WSL/659_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/bin/remote-cli:/home/qwqb233/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA/CUDNN/v9.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/d/winAVR/bin:/mnt/d/winAVR/utils/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/:/mnt/c/Program Files/USBip:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Trae CN/bin:/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin:/mnt/c/MinGW/bin:/mnt/c/Users/qwqb233/AppData/Local/Programs/Python/Python310:/mnt/c/Users/qwqb233/AppData/Local/Programs/Python/Python310/Scripts:/mnt/d/CMAKE/bin:/mnt/c/Windows/System32:/mnt/c/Users/qwqb233/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Users/qwqb233/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/clion/CLion 2023.2/bin/mingw/bin:/mnt/d/clion/CLion 2023.2/bin/gdb/win/x64/bin:/mnt/d/clion/CLion 2023.2/bin/cmake/win/x64/bin:/mnt/d/clion/CLion 2023.2/bin:/mnt/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin:/mnt/d/GUNGCC/10 2021.10/bin:/mnt/d/openocd/OpenOCD-20240916-0.12.0/bin:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Users/qwqb233/AppData/Local/Programs/nu/bin/:/mnt/d/ffmpeg/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/nodejs/node_modules/npm/bin:/mnt/c/Users/qwqb233/AppData/Roaming/npm:/mnt/c/Users/qwqb233/AppData/Local/Programs/Ollama:/mnt/d/mysql/bin:/mnt/c/Program Files/Git/bin:/mnt/d/Windsurf/bin:/mnt/c/Program Files/Java/jdk-18.0.2.1/bin:/mnt/d/apache-ant-1.10.14/bin:/mnt/d/编程/stm32/工具软件/串口助手:/mnt/d/keil/mdk/UV4:/snap/bin:/home/qwqb233/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-11438bda8c.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'WEBOTS_HOME': '/usr/local/webots', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[9.269304] (controlVrep_ws) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.270290] (controlVrep_ws) StdoutLine: {'line': b'-- Installing: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/controlVrep_ws/controlVrep_ws_node\n'}
+[9.278000] (controlVrep_ws) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/controlVrep_ws/controlVrep_ws_node" to ""\n'}
+[9.278329] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/ament_index/resource_index/package_run_dependencies/controlVrep_ws\n'}
+[9.278425] (controlVrep_ws) StdoutLine: {'line': b'-- Installing: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/ament_index/resource_index/parent_prefix_path/controlVrep_ws\n'}
+[9.278673] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/ament_prefix_path.sh\n'}
+[9.278848] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/ament_prefix_path.dsv\n'}
+[9.278983] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/path.sh\n'}
+[9.279195] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/path.dsv\n'}
+[9.279267] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.bash\n'}
+[9.279321] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.sh\n'}
+[9.279412] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.zsh\n'}
+[9.279534] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.dsv\n'}
+[9.279723] (controlVrep_ws) StdoutLine: {'line': b'-- Installing: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.dsv\n'}
+[9.279809] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/ament_index/resource_index/packages/controlVrep_ws\n'}
+[9.279864] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/cmake/controlVrep_wsConfig.cmake\n'}
+[9.279925] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/cmake/controlVrep_wsConfig-version.cmake\n'}
+[9.279986] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.xml\n'}
+[9.282445] (controlVrep_ws) CommandEnded: {'returncode': 0}
+[9.300636] (controlVrep_ws) JobEnded: {'identifier': 'controlVrep_ws', 'rc': 0}
+[9.301636] (-) EventReactorShutdown: {}

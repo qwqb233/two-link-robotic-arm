@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:7:
+  Parse error.  Expected "(", got unquoted argument with text
+  "LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/controlVrep_ws/".
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

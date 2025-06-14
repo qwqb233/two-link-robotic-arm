@@ -1,0 +1,10 @@
+/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws/CMakeFiles/uninstall.dir
+/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws/CMakeFiles/controlVrep_ws_uninstall.dir
+/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws/CMakeFiles/controlVrep_ws_node.dir
+/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws/CMakeFiles/test.dir
+/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws/CMakeFiles/edit_cache.dir
+/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws/CMakeFiles/rebuild_cache.dir
+/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws/CMakeFiles/list_install_components.dir
+/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws/CMakeFiles/install.dir
+/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws/CMakeFiles/install/local.dir
+/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws/CMakeFiles/install/strip.dir

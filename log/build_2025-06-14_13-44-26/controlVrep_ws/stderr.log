@@ -1,0 +1,6 @@
+WARNING: Package name "controlVrep_ws" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+/usr/bin/ld: cannot find -lMatrix: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/controlVrep_ws_node.dir/build.make:171: controlVrep_ws_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controlVrep_ws_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

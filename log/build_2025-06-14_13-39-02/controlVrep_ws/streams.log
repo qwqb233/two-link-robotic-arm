@@ -1,0 +1,9 @@
+[0.015s] Invoking command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16
+[0.042s] [31mCMake Error at CMakeLists.txt:7:
+[0.042s]   Parse error.  Expected "(", got unquoted argument with text
+[0.042s]   "LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/controlVrep_ws/".
+[0.042s] 
+[0.042s] [0m
+[0.042s] -- Configuring incomplete, errors occurred!
+[0.045s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.049s] Invoked command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16

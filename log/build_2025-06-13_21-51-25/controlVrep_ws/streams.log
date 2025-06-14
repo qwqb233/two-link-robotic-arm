@@ -1,0 +1,10 @@
+[0.014s] Invoking command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16
+[0.110s] [ 50%] [32mBuilding CXX object CMakeFiles/controlVrep_ws_node.dir/src/controlVrep_ws_node.cpp.o[0m
+[0.419s] [01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/controlVrep_ws_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.419s]     3 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.419s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.420s] compilation terminated.
+[0.426s] gmake[2]: *** [CMakeFiles/controlVrep_ws_node.dir/build.make:76: CMakeFiles/controlVrep_ws_node.dir/src/controlVrep_ws_node.cpp.o] Error 1
+[0.426s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controlVrep_ws_node.dir/all] Error 2
+[0.426s] gmake: *** [Makefile:146: all] Error 2
+[0.430s] Invoked command in '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws -- -j16 -l16

@@ -1,0 +1,64 @@
+WARNING: Package name "controlVrep_ws" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+/usr/bin/ld: cannot find -lMatrix: No such file or directory
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:[m[K In member function ‘[01m[KMatrix Matrix::[01;32m[Koperator+[m[K(const Matrix&)[m[K’:
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:137:12:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KMatrix::[01;32m[KMatrix[m[K(const Matrix&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  137 |     return [01;35m[Kresult[m[K;
+      |            [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:8[m[K:
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatrix[m[K’ has user-provided ‘[01m[KMatrix& Matrix::[01;32m[Koperator=[m[K(const Matrix&)[m[K’
+   46 |         Matrix& [01;36m[Koperator[m[K=(const Matrix& other);
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:[m[K In member function ‘[01m[KMatrix Matrix::[01;32m[Koperator-[m[K(const Matrix&)[m[K’:
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:152:12:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KMatrix::[01;32m[KMatrix[m[K(const Matrix&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  152 |     return [01;35m[Kresult[m[K;
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatrix[m[K’ has user-provided ‘[01m[KMatrix& Matrix::[01;32m[Koperator=[m[K(const Matrix&)[m[K’
+   46 |         Matrix& [01;36m[Koperator[m[K=(const Matrix& other);
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:[m[K In member function ‘[01m[KMatrix Matrix::[01;32m[Koperator*[m[K(const Matrix&)[m[K’:
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:174:12:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KMatrix::[01;32m[KMatrix[m[K(const Matrix&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  174 |     return [01;35m[Kresult[m[K;
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatrix[m[K’ has user-provided ‘[01m[KMatrix& Matrix::[01;32m[Koperator=[m[K(const Matrix&)[m[K’
+   46 |         Matrix& [01;36m[Koperator[m[K=(const Matrix& other);
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:[m[K In member function ‘[01m[KMatrix Matrix::[01;32m[Koperator+[m[K(double)[m[K’:
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:185:12:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KMatrix::[01;32m[KMatrix[m[K(const Matrix&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  185 |     return [01;35m[Kresult[m[K;
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatrix[m[K’ has user-provided ‘[01m[KMatrix& Matrix::[01;32m[Koperator=[m[K(const Matrix&)[m[K’
+   46 |         Matrix& [01;36m[Koperator[m[K=(const Matrix& other);
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:[m[K In member function ‘[01m[KMatrix Matrix::[01;32m[Koperator-[m[K(double)[m[K’:
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:195:12:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KMatrix::[01;32m[KMatrix[m[K(const Matrix&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  195 |     return [01;35m[Kresult[m[K;
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatrix[m[K’ has user-provided ‘[01m[KMatrix& Matrix::[01;32m[Koperator=[m[K(const Matrix&)[m[K’
+   46 |         Matrix& [01;36m[Koperator[m[K=(const Matrix& other);
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:[m[K In member function ‘[01m[KMatrix Matrix::[01;32m[Koperator*[m[K(double)[m[K’:
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:205:12:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KMatrix::[01;32m[KMatrix[m[K(const Matrix&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  205 |     return [01;35m[Kresult[m[K;
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatrix[m[K’ has user-provided ‘[01m[KMatrix& Matrix::[01;32m[Koperator=[m[K(const Matrix&)[m[K’
+   46 |         Matrix& [01;36m[Koperator[m[K=(const Matrix& other);
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:[m[K In member function ‘[01m[KMatrix Matrix::[01;32m[Koperator/[m[K(double)[m[K’:
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:219:12:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KMatrix::[01;32m[KMatrix[m[K(const Matrix&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  219 |     return [01;35m[Kresult[m[K;
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatrix[m[K’ has user-provided ‘[01m[KMatrix& Matrix::[01;32m[Koperator=[m[K(const Matrix&)[m[K’
+   46 |         Matrix& [01;36m[Koperator[m[K=(const Matrix& other);
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:[m[K In member function ‘[01m[KMatrix Matrix::[01;32m[Koperator^[m[K(double)[m[K’:
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/Matrix.cpp:233:12:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KMatrix::[01;32m[KMatrix[m[K(const Matrix&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  233 |     return [01;35m[Kresult[m[K;
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/include/Matrix.h:46:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatrix[m[K’ has user-provided ‘[01m[KMatrix& Matrix::[01;32m[Koperator=[m[K(const Matrix&)[m[K’
+   46 |         Matrix& [01;36m[Koperator[m[K=(const Matrix& other);
+      |                 [01;36m[K^~~~~~~~[m[K
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/controlVrep_ws_node.dir/build.make:171: controlVrep_ws_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controlVrep_ws_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2
