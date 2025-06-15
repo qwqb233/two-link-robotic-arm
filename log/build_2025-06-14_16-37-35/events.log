@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000637] (controlVrep_ws) JobQueued: {'identifier': 'controlVrep_ws', 'dependencies': OrderedDict()}
+[0.000688] (controlVrep_ws) JobStarted: {'identifier': 'controlVrep_ws'}
+[0.011119] (controlVrep_ws) JobProgress: {'identifier': 'controlVrep_ws', 'progress': 'cmake'}
+[0.011867] (controlVrep_ws) JobProgress: {'identifier': 'controlVrep_ws', 'progress': 'build'}
+[0.013874] (controlVrep_ws) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws', '--', '-j16', '-l16'], 'cwd': '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'qwqb233', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_ASKPASS': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/controlVrep_ws/', 'HOME': '/home/qwqb233', 'TERM_PROGRAM_VERSION': '1.101.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-8a008eba-67c2-4895-85d6-a8509bb33b6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/qwqb233/ros2Project/controlVrep_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'qwqb233', 'NAME': 'qwqb233', 'WSL_INTEROP': '/run/WSL/659_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/bin/remote-cli:/home/qwqb233/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA/CUDNN/v9.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/d/winAVR/bin:/mnt/d/winAVR/utils/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/:/mnt/c/Program Files/USBip:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Trae CN/bin:/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin:/mnt/c/MinGW/bin:/mnt/c/Users/qwqb233/AppData/Local/Programs/Python/Python310:/mnt/c/Users/qwqb233/AppData/Local/Programs/Python/Python310/Scripts:/mnt/d/CMAKE/bin:/mnt/c/Windows/System32:/mnt/c/Users/qwqb233/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Users/qwqb233/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/clion/CLion 2023.2/bin/mingw/bin:/mnt/d/clion/CLion 2023.2/bin/gdb/win/x64/bin:/mnt/d/clion/CLion 2023.2/bin/cmake/win/x64/bin:/mnt/d/clion/CLion 2023.2/bin:/mnt/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin:/mnt/d/GUNGCC/10 2021.10/bin:/mnt/d/openocd/OpenOCD-20240916-0.12.0/bin:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Users/qwqb233/AppData/Local/Programs/nu/bin/:/mnt/d/ffmpeg/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/nodejs/node_modules/npm/bin:/mnt/c/Users/qwqb233/AppData/Roaming/npm:/mnt/c/Users/qwqb233/AppData/Local/Programs/Ollama:/mnt/d/mysql/bin:/mnt/c/Program Files/Git/bin:/mnt/d/Windsurf/bin:/mnt/c/Program Files/Java/jdk-18.0.2.1/bin:/mnt/d/apache-ant-1.10.14/bin:/mnt/d/编程/stm32/工具软件/串口助手:/mnt/d/keil/mdk/UV4:/snap/bin:/home/qwqb233/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-11438bda8c.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'WEBOTS_HOME': '/usr/local/webots', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.099846] (-) TimerEvent: {}
+[0.127043] (controlVrep_ws) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controlVrep_ws_node.dir/src/controlVrep_ws_node.cpp.o\x1b[0m\n'}
+[0.199998] (-) TimerEvent: {}
+[0.300420] (-) TimerEvent: {}
+[0.400861] (-) TimerEvent: {}
+[0.501304] (-) TimerEvent: {}
+[0.601710] (-) TimerEvent: {}
+[0.702448] (-) TimerEvent: {}
+[0.803022] (-) TimerEvent: {}
+[0.904946] (-) TimerEvent: {}
+[1.005452] (-) TimerEvent: {}
+[1.106824] (-) TimerEvent: {}
+[1.207301] (-) TimerEvent: {}
+[1.307930] (-) TimerEvent: {}
+[1.408315] (-) TimerEvent: {}
+[1.508707] (-) TimerEvent: {}
+[1.609056] (-) TimerEvent: {}
+[1.709405] (-) TimerEvent: {}
+[1.809847] (-) TimerEvent: {}
+[1.910231] (-) TimerEvent: {}
+[2.010650] (-) TimerEvent: {}
+[2.111050] (-) TimerEvent: {}
+[2.211443] (-) TimerEvent: {}
+[2.311838] (-) TimerEvent: {}
+[2.412268] (-) TimerEvent: {}
+[2.514034] (-) TimerEvent: {}
+[2.615138] (-) TimerEvent: {}
+[2.716145] (-) TimerEvent: {}
+[2.816649] (-) TimerEvent: {}
+[2.917003] (-) TimerEvent: {}
+[3.017416] (-) TimerEvent: {}
+[3.118339] (-) TimerEvent: {}
+[3.218747] (-) TimerEvent: {}
+[3.319187] (-) TimerEvent: {}
+[3.419576] (-) TimerEvent: {}
+[3.519915] (-) TimerEvent: {}
+[3.620225] (-) TimerEvent: {}
+[3.720623] (-) TimerEvent: {}
+[3.821009] (-) TimerEvent: {}
+[3.922115] (-) TimerEvent: {}
+[4.022547] (-) TimerEvent: {}
+[4.122971] (-) TimerEvent: {}
+[4.223318] (-) TimerEvent: {}
+[4.323741] (-) TimerEvent: {}
+[4.424134] (-) TimerEvent: {}
+[4.524471] (-) TimerEvent: {}
+[4.624838] (-) TimerEvent: {}
+[4.725334] (-) TimerEvent: {}
+[4.825940] (-) TimerEvent: {}
+[4.926485] (-) TimerEvent: {}
+[5.026956] (-) TimerEvent: {}
+[5.127377] (-) TimerEvent: {}
+[5.227882] (-) TimerEvent: {}
+[5.328273] (-) TimerEvent: {}
+[5.428625] (-) TimerEvent: {}
+[5.529036] (-) TimerEvent: {}
+[5.629417] (-) TimerEvent: {}
+[5.730286] (-) TimerEvent: {}
+[5.830670] (-) TimerEvent: {}
+[5.931088] (-) TimerEvent: {}
+[6.031563] (-) TimerEvent: {}
+[6.131992] (-) TimerEvent: {}
+[6.232475] (-) TimerEvent: {}
+[6.332913] (-) TimerEvent: {}
+[6.433302] (-) TimerEvent: {}
+[6.533710] (-) TimerEvent: {}
+[6.634182] (-) TimerEvent: {}
+[6.735318] (-) TimerEvent: {}
+[6.835756] (-) TimerEvent: {}
+[6.936211] (-) TimerEvent: {}
+[7.036593] (-) TimerEvent: {}
+[7.136980] (-) TimerEvent: {}
+[7.237427] (-) TimerEvent: {}
+[7.337898] (-) TimerEvent: {}
+[7.438393] (-) TimerEvent: {}
+[7.539798] (-) TimerEvent: {}
+[7.640136] (-) TimerEvent: {}
+[7.740477] (-) TimerEvent: {}
+[7.840803] (-) TimerEvent: {}
+[7.941147] (-) TimerEvent: {}
+[8.041467] (-) TimerEvent: {}
+[8.141835] (-) TimerEvent: {}
+[8.242274] (-) TimerEvent: {}
+[8.342601] (-) TimerEvent: {}
+[8.443031] (-) TimerEvent: {}
+[8.543470] (-) TimerEvent: {}
+[8.643965] (-) TimerEvent: {}
+[8.744335] (-) TimerEvent: {}
+[8.844689] (-) TimerEvent: {}
+[8.945154] (-) TimerEvent: {}
+[9.045614] (-) TimerEvent: {}
+[9.145985] (-) TimerEvent: {}
+[9.246360] (-) TimerEvent: {}
+[9.346692] (-) TimerEvent: {}
+[9.447109] (-) TimerEvent: {}
+[9.547639] (-) TimerEvent: {}
+[9.648049] (-) TimerEvent: {}
+[9.749402] (-) TimerEvent: {}
+[9.849769] (-) TimerEvent: {}
+[9.950100] (-) TimerEvent: {}
+[10.050439] (-) TimerEvent: {}
+[10.150788] (-) TimerEvent: {}
+[10.251246] (-) TimerEvent: {}
+[10.351742] (-) TimerEvent: {}
+[10.452129] (-) TimerEvent: {}
+[10.552501] (-) TimerEvent: {}
+[10.653117] (-) TimerEvent: {}
+[10.753863] (-) TimerEvent: {}
+[10.854286] (-) TimerEvent: {}
+[10.954612] (-) TimerEvent: {}
+[11.054965] (-) TimerEvent: {}
+[11.156098] (-) TimerEvent: {}
+[11.256854] (-) TimerEvent: {}
+[11.357226] (-) TimerEvent: {}
+[11.457541] (-) TimerEvent: {}
+[11.484311] (controlVrep_ws) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controlVrep_ws_node\x1b[0m\n'}
+[11.557699] (-) TimerEvent: {}
+[11.658135] (-) TimerEvent: {}
+[11.758603] (-) TimerEvent: {}
+[11.859064] (-) TimerEvent: {}
+[11.959472] (-) TimerEvent: {}
+[12.059984] (-) TimerEvent: {}
+[12.160464] (-) TimerEvent: {}
+[12.175388] (controlVrep_ws) StdoutLine: {'line': b'[100%] Built target controlVrep_ws_node\n'}
+[12.195224] (controlVrep_ws) CommandEnded: {'returncode': 0}
+[12.196198] (controlVrep_ws) JobProgress: {'identifier': 'controlVrep_ws', 'progress': 'install'}
+[12.211711] (controlVrep_ws) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws'], 'cwd': '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'qwqb233', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_ASKPASS': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/controlVrep_ws/', 'HOME': '/home/qwqb233', 'TERM_PROGRAM_VERSION': '1.101.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-8a008eba-67c2-4895-85d6-a8509bb33b6d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/qwqb233/ros2Project/controlVrep_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'qwqb233', 'NAME': 'qwqb233', 'WSL_INTEROP': '/run/WSL/659_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/qwqb233/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/bin/remote-cli:/home/qwqb233/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA/CUDNN/v9.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/d/winAVR/bin:/mnt/d/winAVR/utils/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/:/mnt/c/Program Files/USBip:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Trae CN/bin:/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin:/mnt/c/MinGW/bin:/mnt/c/Users/qwqb233/AppData/Local/Programs/Python/Python310:/mnt/c/Users/qwqb233/AppData/Local/Programs/Python/Python310/Scripts:/mnt/d/CMAKE/bin:/mnt/c/Windows/System32:/mnt/c/Users/qwqb233/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Users/qwqb233/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/clion/CLion 2023.2/bin/mingw/bin:/mnt/d/clion/CLion 2023.2/bin/gdb/win/x64/bin:/mnt/d/clion/CLion 2023.2/bin/cmake/win/x64/bin:/mnt/d/clion/CLion 2023.2/bin:/mnt/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin:/mnt/d/GUNGCC/10 2021.10/bin:/mnt/d/openocd/OpenOCD-20240916-0.12.0/bin:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Users/qwqb233/AppData/Local/Programs/nu/bin/:/mnt/d/ffmpeg/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/nodejs/node_modules/npm/bin:/mnt/c/Users/qwqb233/AppData/Roaming/npm:/mnt/c/Users/qwqb233/AppData/Local/Programs/Ollama:/mnt/d/mysql/bin:/mnt/c/Program Files/Git/bin:/mnt/d/Windsurf/bin:/mnt/c/Program Files/Java/jdk-18.0.2.1/bin:/mnt/d/apache-ant-1.10.14/bin:/mnt/d/编程/stm32/工具软件/串口助手:/mnt/d/keil/mdk/UV4:/snap/bin:/home/qwqb233/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-11438bda8c.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'WEBOTS_HOME': '/usr/local/webots', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/qwqb233/ros2Project/controlVrep_ws/build/controlVrep_ws', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[12.225509] (controlVrep_ws) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.225861] (controlVrep_ws) StdoutLine: {'line': b'-- Installing: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/controlVrep_ws/controlVrep_ws_node\n'}
+[12.236723] (controlVrep_ws) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/lib/controlVrep_ws/controlVrep_ws_node" to ""\n'}
+[12.238703] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/ament_index/resource_index/package_run_dependencies/controlVrep_ws\n'}
+[12.239021] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/ament_index/resource_index/parent_prefix_path/controlVrep_ws\n'}
+[12.239210] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/ament_prefix_path.sh\n'}
+[12.239398] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/ament_prefix_path.dsv\n'}
+[12.239631] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/path.sh\n'}
+[12.239756] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/environment/path.dsv\n'}
+[12.239908] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.bash\n'}
+[12.240018] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.sh\n'}
+[12.240112] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.zsh\n'}
+[12.240204] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/local_setup.dsv\n'}
+[12.240292] (controlVrep_ws) StdoutLine: {'line': b'-- Installing: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.dsv\n'}
+[12.240705] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/ament_index/resource_index/packages/controlVrep_ws\n'}
+[12.240943] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/cmake/controlVrep_wsConfig.cmake\n'}
+[12.241037] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/cmake/controlVrep_wsConfig-version.cmake\n'}
+[12.241100] (controlVrep_ws) StdoutLine: {'line': b'-- Up-to-date: /home/qwqb233/ros2Project/controlVrep_ws/install/controlVrep_ws/share/controlVrep_ws/package.xml\n'}
+[12.244213] (controlVrep_ws) CommandEnded: {'returncode': 0}
+[12.261248] (controlVrep_ws) JobEnded: {'identifier': 'controlVrep_ws', 'rc': 0}
+[12.262183] (-) TimerEvent: {}
+[12.262296] (-) EventReactorShutdown: {}

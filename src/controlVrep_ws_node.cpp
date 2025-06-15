@@ -7,6 +7,10 @@
 #include "Matrix.h"
 using json = nlohmann::json;
 
+#define rad2deg(x) ((x) * 180.0 / M_PI)
+#define deg2rad(x) ((x) * M_PI / 180.0)
+#define MAX(x ,y) (x) = ((x) > (y) ? (x) : (y))
+#define MIN(x ,y) (x) = ((x) < (y) ? (x) : (y))
 
 class controlVrepWsNode: public rclcpp::Node
 {
@@ -33,19 +37,25 @@ class controlVrepWsNode: public rclcpp::Node
         position_t targetPos= {0.0, 0.0, 0.0};
         position_t basePos = {0.0, 0.0, 0.0};
 
+        double theta1 = 0.0;
+        double theta2 = 0.0;
+
         rclcpp::Subscription<std_msgs::msg::String>::SharedPtr targetPosition;
         rclcpp::Subscription<std_msgs::msg::String>::SharedPtr basePosition;
         rclcpp::Subscription<std_msgs::msg::String>::SharedPtr DHTable;
 
+        rclcpp::Publisher<std_msgs::msg::String>::SharedPtr jointAnglesPublisher;
+
+        rclcpp::TimerBase::SharedPtr jointAnglesTimer_;
 
     public:
         void targetPositionCallback(const std_msgs::msg::String::SharedPtr msg)
         {
-            RCLCPP_INFO(this->get_logger(), "Target Position: %s", msg->data.c_str());
+            //RCLCPP_INFO(this->get_logger(), "Target Position: %s", msg->data.c_str());
             try
             {
                 std::sscanf(msg->data.c_str(), "{x=%lf, y=%lf, z=%lf}", &targetPos.x, &targetPos.y, &targetPos.z);
-                RCLCPP_INFO(this->get_logger(), "Parsed Target Position: x=%lf, y=%lf, z=%lf", targetPos.x, targetPos.y, targetPos.z);
+                //RCLCPP_INFO(this->get_logger(), "Parsed Target Position: x=%lf, y=%lf, z=%lf", targetPos.x, targetPos.y, targetPos.z);
             }
             catch(...)
             {
@@ -55,11 +65,11 @@ class controlVrepWsNode: public rclcpp::Node
         }
         void basePositionCallback(const std_msgs::msg::String::SharedPtr msg)
         {
-            RCLCPP_INFO(this->get_logger(), "Base Position: %s", msg->data.c_str());
+            //RCLCPP_INFO(this->get_logger(), "Base Position: %s", msg->data.c_str());
             try
             {
                 std::sscanf(msg->data.c_str(), "{x=%lf, y=%lf, z=%lf}", &basePos.x, &basePos.y, &basePos.z);
-                RCLCPP_INFO(this->get_logger(), "Parsed Base Position: x=%lf, y=%lf, z=%lf", basePos.x, basePos.y, basePos.z);
+                //RCLCPP_INFO(this->get_logger(), "Parsed Base Position: x=%lf, y=%lf, z=%lf", basePos.x, basePos.y, basePos.z);
             }
             catch(...)
             {
@@ -68,7 +78,7 @@ class controlVrepWsNode: public rclcpp::Node
         }
         void DHTableCallback(const std_msgs::msg::String::SharedPtr msg)
         {
-            RCLCPP_INFO(this->get_logger(), "DH Table: %s", msg->data.c_str());
+            //RCLCPP_INFO(this->get_logger(), "DH Table: %s", msg->data.c_str());
             json data = json::parse(msg->data);
             try
             {
@@ -111,6 +121,61 @@ class controlVrepWsNode: public rclcpp::Node
             }
         }
 
+        void inverseKinematics()
+        {
+            // Implement inverse kinematics logic here
+            // This function will use targetPos, basePos, and DHTable_list to compute the joint angles
+            RCLCPP_INFO(this->get_logger(), "Inverse Kinematics computation is not implemented yet.");
+            double d_x = targetPos.x;
+            double d_y = targetPos.y;
+
+            double LL = targetPos.x * targetPos.x + targetPos.y * targetPos.y; 
+
+
+            if (LL < 0)
+            {
+                RCLCPP_ERROR(this->get_logger(), "Invalid target position");
+                return;
+            }
+
+            const double L1 = 1;
+            const double L2 = 1;
+            if(sqrt(LL) > (L1 + L2))
+            {
+                RCLCPP_ERROR(this->get_logger(), "Target position is out of reach");
+                return;
+            }
+            
+            double temp = (LL - L1 * L1 - L2 * L2)/(2 * L1 * L2);
+            MIN(MAX(temp,-1),1);
+            double temp_2 = sqrt(1 - temp * temp);
+            theta2 = atan2(temp_2, temp);
+
+            temp = L1 + L2 * temp;
+            temp_2 = L2 * temp_2;
+            theta1 = atan2(d_y, d_x) - atan2(temp_2, temp);
+
+            double theta1_deg = rad2deg(theta1);
+            double theta2_deg = rad2deg(theta2);
+
+            if(theta2 == nan("") || theta1 == nan(""))
+            {
+                RCLCPP_ERROR(this->get_logger(), "Invalid joint angles computed");
+                return;
+            }
+            RCLCPP_INFO(this->get_logger(), "Computed Joint Angles: theta1=%lf, theta2=%lf", theta1_deg, theta2_deg);
+        }
+
+        void publishJointAngles()
+        {
+            std_msgs::msg::String jointAnglesMsg;
+            // Here you would set the joint angles based on the inverse kinematics computation
+            // For now, we will just send a placeholder message
+            jointAnglesMsg.data = "Joint Angles: [" + std::to_string(theta1) + ", " + std::to_string(theta2) + "]";
+            jointAnglesPublisher->publish(jointAnglesMsg);
+            RCLCPP_INFO(this->get_logger(), "Published Joint Angles: %s", jointAnglesMsg.data.c_str());
+        }
+
         controlVrepWsNode()
         : Node("control_vrep_ws_node")
         {
@@ -122,6 +187,14 @@ class controlVrepWsNode: public rclcpp::Node
             // DHTable = this->create_subscription<std_msgs::msg::String>("/dh_parameters", 10,
             //     std::bind(&controlVrepWsNode::DHTableCallback, this, std::placeholders::_1));
             RCLCPP_INFO(this->get_logger(), "Subscriptions to /target_position, /base_position, and /dh_table created.");
+            jointAnglesPublisher = this->create_publisher<std_msgs::msg::String>("/joint_angles", 10);
+            jointAnglesTimer_ = this->create_wall_timer(
+                std::chrono::milliseconds(100), 
+                [this]() -> void{
+                    this->inverseKinematics();
+                    this->publishJointAngles();
+                }
+            );
         }
 
         ~controlVrepWsNode()
