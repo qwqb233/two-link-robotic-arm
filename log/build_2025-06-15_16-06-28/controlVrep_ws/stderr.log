@@ -1,0 +1,10 @@
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/controlVrep_ws_node.cpp:[m[K In member function ‘[01m[Kvoid controlVrepWsNode::[01;32m[KinverseKinematics[m[K()[m[K’:
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/controlVrep_ws_node.cpp:13:23:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[Ktemp[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+   13 | #define MAX(x ,y) (x) [01;35m[K=[m[K ((x) > (y) ? (x) : (y))
+      |                       [01;35m[K^[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/controlVrep_ws_node.cpp:14:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMIN[m[K’
+   14 | #define MIN(x ,y) ([01;36m[Kx[m[K) = ((x) < (y) ? (x) : (y))
+      |                    [01;36m[K^[m[K
+[01m[K/home/qwqb233/ros2Project/controlVrep_ws/src/controlVrep_ws_node.cpp:110:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMAX[m[K’
+  110 |             MIN([01;36m[KMAX[m[K(temp,-1),1);
+      |                 [01;36m[K^~~[m[K
